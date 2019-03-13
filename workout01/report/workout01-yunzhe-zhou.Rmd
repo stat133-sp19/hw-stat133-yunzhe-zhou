@@ -123,22 +123,22 @@ We firstly take a look at the total number of shoots in this plot. We can easliy
 Now, let's focus on the distribution of the plot. From the distribution, we can easily get the shooting preference of each player. For example, as for the plot of Curry, we can easily find that he prefers the 3 point shots a lot. As we all know according to the average data from nba players, the 3 point hit rate is always lower that 2 point hit rates and much lower than the free throw. Therefore, the preferance for the 3 point shots can make the hit rate of Curry relatively lower.This conclusion can be shown by the table in the following.
 
 
-2 point shots
+**2 point shots**
 
 ```{r echo=FALSE}
-table1
+knitr::kable(table1)
 ```
 
-3 point shots
+**3 point shots**
 
 ```{r echo=FALSE}
-table2
+knitr::kable(table2)
 ```
 
-total shots
+**total point shots**
 
 ```{r echo=FALSE}
-table3
+knitr::kable(table3)
 ```
 
 

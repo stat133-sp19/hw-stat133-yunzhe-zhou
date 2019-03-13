@@ -37,32 +37,35 @@ We firstly take a look at the total number of shoots in this plot. We can easliy
 
 Now, let's focus on the distribution of the plot. From the distribution, we can easily get the shooting preference of each player. For example, as for the plot of Curry, we can easily find that he prefers the 3 point shots a lot. As we all know according to the average data from nba players, the 3 point hit rate is always lower that 2 point hit rates and much lower than the free throw. Therefore, the preferance for the 3 point shots can make the hit rate of Curry relatively lower.This conclusion can be shown by the table in the following.
 
-2 point shots
+**2 point shots**
 
-    ##             name total made perc_made
-    ## 1 Andre Iguodala   210  134 0.6380952
-    ## 2   Kevin Durant   643  390 0.6065319
-    ## 3  Stephen Curry   563  304 0.5399645
-    ## 4  Klay Thompson   640  329 0.5140625
-    ## 5 Graymond Green   346  171 0.4942197
+| name           |  total|  made|  perc\_made|
+|:---------------|------:|-----:|-----------:|
+| Andre Iguodala |    210|   134|   0.6380952|
+| Kevin Durant   |    643|   390|   0.6065319|
+| Stephen Curry  |    563|   304|   0.5399645|
+| Klay Thompson  |    640|   329|   0.5140625|
+| Graymond Green |    346|   171|   0.4942197|
 
-3 point shots
+**3 point shots**
 
-    ##             name total made perc_made
-    ## 1  Klay Thompson   580  246 0.4241379
-    ## 2  Stephen Curry   687  280 0.4075691
-    ## 3   Kevin Durant   272  105 0.3860294
-    ## 4 Andre Iguodala   161   58 0.3602484
-    ## 5 Graymond Green   232   74 0.3189655
+| name           |  total|  made|  perc\_made|
+|:---------------|------:|-----:|-----------:|
+| Klay Thompson  |    580|   246|   0.4241379|
+| Stephen Curry  |    687|   280|   0.4075691|
+| Kevin Durant   |    272|   105|   0.3860294|
+| Andre Iguodala |    161|    58|   0.3602484|
+| Graymond Green |    232|    74|   0.3189655|
 
-total shots
+**total point shots**
 
-    ##             name total made perc_made
-    ## 1   Kevin Durant   915  495 0.5409836
-    ## 2 Andre Iguodala   371  192 0.5175202
-    ## 3  Klay Thompson  1220  575 0.4713115
-    ## 4  Stephen Curry  1250  584 0.4672000
-    ## 5 Graymond Green   578  245 0.4238754
+| name           |  total|  made|  perc\_made|
+|:---------------|------:|-----:|-----------:|
+| Kevin Durant   |    915|   495|   0.5409836|
+| Andre Iguodala |    371|   192|   0.5175202|
+| Klay Thompson  |   1220|   575|   0.4713115|
+| Stephen Curry  |   1250|   584|   0.4672000|
+| Graymond Green |    578|   245|   0.4238754|
 
 From the tables, we can verify that there is a big difference for the hits rate between the 2 and 3 point shots. Also, Curry rank 2 and Iguodala rank 4 for the 3 point shots but iguodala has higher hit rate in total shots. THerefore, the shooting preferance plays a great role in influencing the player's hit rates. As for Durant, we can see from the plot that he doesn't have an obvious shooting preferance so he is also called as all-round player. From the total shots table, we can get that he ranks the first and has the highest hit rate. So we can not deny the fact that the all-round preferance of Durant contribute to his higher hit rates. As for Green, he is actually not a very good shooter and he performs bad in both 2 point shots and 3 points shots, so it is not a surprise that he ranks the lowest. Actually, he plays a more important role in defending than getting scores.
 
