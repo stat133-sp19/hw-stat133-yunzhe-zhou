@@ -33,6 +33,8 @@ The following is the shooting plot of the five players during the 2016 season.
 
 We firstly take a look at the total number of shoots in this plot. We can easliy see that Iguodala and Green have less shooting chance than the other players. This may be explained by their role in this team, which is not so important than other players and therefore have less chance in each game. When a team defends another team, it is highly likely that the lead players will be intensily guarded and the role players like Iguodala will be paid less attention to. Therefore, this may lead to his higher hit rate than other lead players. To sum up, the total shooting numbers can represent the role and importance of the player in the team and this may lead to the difference of the hit rate.
 
+<img src="../images/curry.jpg" width="80%" style="display: block; margin: auto;" />
+
 ### Shooting Preferance
 
 Now, let's focus on the distribution of the plot. From the distribution, we can easily get the shooting preference of each player. For example, as for the plot of Curry, we can easily find that he prefers the 3 point shots a lot. As we all know according to the average data from nba players, the 3 point hit rate is always lower that 2 point hit rates and much lower than the free throw. Therefore, the preferance for the 3 point shots can make the hit rate of Curry relatively lower.This conclusion can be shown by the table in the following.
