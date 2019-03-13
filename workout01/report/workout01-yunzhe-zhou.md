@@ -86,6 +86,11 @@ Take Home Message
 
 *Ability is not the only factor influence the hit rate, we should also take the position, shooting preferance and player's role into account.*
 
+Reference
+---------
+
+<http://cdar.berkeley.edu/researcharea/do-steph-curry-and-klay-thompson-have-hot-hands/>
+
 Appendix
 --------
 
