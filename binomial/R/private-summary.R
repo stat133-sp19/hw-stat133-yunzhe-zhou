@@ -26,7 +26,7 @@ aux_variance=function(trials,prob)
 aux_mode=function(trials,prob)
 {
   m=prob*trials+prob
-  if(is.integer(m))
+  if(floor(m)==m)
   {
     mode=c(m-1,m)
   } else
