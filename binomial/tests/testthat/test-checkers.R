@@ -30,7 +30,7 @@ test_that("check_trials with valid value",{
 test_that("check_trials fails with invalid lengths",{
   expect_error(check_trials(c(1,2)))
   expect_error(check_trials(1:5))
-  expect_error(check_trials(c("a","b")))
+  expect_error(check_trials(c(3,5)))
 })
 
 test_that("check_trials fails with invalid types",{
@@ -54,7 +54,7 @@ test_that("check_success fails to have successes bigger than trials",{
 })
 
 test_that("check_success fails with invalid types",{
-  expect_error(check_success("e",4))
+  expect_error(check_success(4.7,4))
   expect_error(check_success(3.3,4))
 })
 
