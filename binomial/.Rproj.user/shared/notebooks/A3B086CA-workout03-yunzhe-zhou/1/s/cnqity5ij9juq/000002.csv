@@ -1,0 +1,7 @@
+"0","#' @export"
+"0","print.summary.binvar=function(object)"
+"0","{"
+"0","  summary=summary.binvar(object)"
+"0","  string=paste0('""Summary Binomial"" \n\nParameters \n-number of trials: ',summary[1],""\n-prob of success: "",summary[2],""\n\n"",""Measures"",""\n-mean    :"",summary[3],""\n-variance:"",summary[4],""\n-mode    :"",summary[5],""\n-skewness:"",summary[6],""\n-kurtosis:"",summary[7])"
+"0","  cat(string)"
+"0","}"

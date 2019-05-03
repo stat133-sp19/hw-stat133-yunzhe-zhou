@@ -1,0 +1,6 @@
+"0","#' @export"
+"0","print.binvar=function(object)"
+"0","{"
+"0","  string=paste0('""Binomial variable"" \n \nParameters \n-number of trials: ',object[1],""\n-prob of success: "",object[2])"
+"0","  cat(string)"
+"0","}"

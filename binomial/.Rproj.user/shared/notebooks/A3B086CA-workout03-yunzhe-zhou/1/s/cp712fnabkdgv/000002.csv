@@ -1,0 +1,5 @@
+"0","#' @export"
+"0","plot.bindis=function(object)"
+"0","{"
+"0","  barplot(object$probability,names.arg = object$success,xlab=""successes"",ylab=""probability"")"
+"0","}"

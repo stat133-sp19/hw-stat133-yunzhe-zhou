@@ -1,0 +1,4 @@
+"0","#least square estimator and relative influence curve"
+"0","#least square estimator b_l"
+"0","library(matlib)"
+"0","b_l=inv(t(X)%*%X)%*%t(X)%*%Y"

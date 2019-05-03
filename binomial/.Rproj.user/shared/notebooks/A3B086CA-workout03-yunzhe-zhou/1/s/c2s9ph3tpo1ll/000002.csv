@@ -1,0 +1,5 @@
+"0","#' @export"
+"0","plot.bincum=function(object)"
+"0","{"
+"0","  plot(object$success,object$probability,type=""o"",xlab=""successes"",ylab=""probability"")"
+"0","}"

@@ -268,7 +268,10 @@ table3=arrange(table3,desc(perc_made))
 
 
 
+```{r}
+A <- matrix(1:12, nrow = 3, ncol = 4)
 
+```
 
 
 

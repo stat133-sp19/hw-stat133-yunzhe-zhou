@@ -1,0 +1,128 @@
+---
+title: "Getting Start With Binomial Package"
+author: "Yunzhe Zhou"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo=FALSE,message=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(binomial)
+```
+
+
+## Binomial
+
+The package "binomial" is an implementation for calculate the binomial probability and related measures, which also visualizes the related distribution and culmulative distriburion.
+
+
+## Calculate some basic measures
+
+Calculate E(X) given X~B(n,p)
+
+```{r}
+expectation=bin_mean(trials=5,prob=0.3)
+expectation
+```
+
+Calculate Var(X) given X~B(n,p)
+
+```{r}
+variance=bin_variance(trials=5,prob=0.3)
+variance
+```
+
+Calculate mode of X given X~B(n,p)
+
+```{r}
+mode=bin_mode(trials=5,prob=0.3)
+mode
+```
+
+Calculate skewness of X given X~B(n,p)
+
+```{r}
+skewness=bin_skewness(trials=5,prob=0.3)
+skewness
+```
+
+Calculate kurtosis of X given X~B(n,p)
+
+```{r}
+kurtosis=bin_skewness(trials=5,prob=0.3)
+kurtosis
+```
+
+
+Calculate $\binom n k$
+
+```{r}
+choose <- bin_choose(n = 10, k = 3)
+choose
+```
+
+
+Calculate the probability when X=k for binomial distribution
+
+```{r}
+probability=bin_probability(success=3,trials=5,prob=0.3)
+probability
+```
+
+
+## Create an object of class "binvar"
+
+```{r}
+object=bin_variable(trials=5,prob=0.3)
+object
+```
+
+## Show the summary of the binomial distribution
+
+```{r}
+summary(object)
+```
+
+
+## Show the table of the binomial distribution
+
+Show the table of distribution
+
+```{r}
+dist1=bin_distribution(trials=5,prob=0.3)
+dist1
+```
+
+
+Show the table of the cumulative distribution
+
+```{r}
+dist2=bin_cumulative(trials=5,prob=0.3)
+dist2
+```
+
+## Show the plot of the binomial distribution
+
+show the plot of the disribution
+
+```{r}
+plot(dist1)
+```
+
+show the plot of the cumulative distribution
+
+```{r}
+plot(dist2)
+```
+
+

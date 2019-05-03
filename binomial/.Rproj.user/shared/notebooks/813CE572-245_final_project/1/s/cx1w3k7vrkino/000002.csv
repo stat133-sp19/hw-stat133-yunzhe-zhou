@@ -1,0 +1,5 @@
+"0","#calculate the 95% confidence interval for IC_l"
+"0","interval_up=b_l+q_value*SE"
+"0","interval_down=b_l-q_value*SE"
+"0","result=data.frame(b,b_l,interval_down,interval_up)"
+"0","result"
