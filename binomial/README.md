@@ -1,14 +1,3 @@
-
-------------------------------------------------------------------------
-
-output:
-
-github\_document:
-
-    html_preview: false
-
-------------------------------------------------------------------------
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 Overview
 --------
