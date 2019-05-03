@@ -28,35 +28,35 @@ The package "binomial" is an implementation for calculate the binomial probabili
 
 ## Calculate some basic measures
 
-Calculate E(X) given X~B(n,p)
+Calculate E(X) given X is B(n,p)
 
 ```{r}
 expectation=bin_mean(trials=5,prob=0.3)
 expectation
 ```
 
-Calculate Var(X) given X~B(n,p)
+Calculate Var(X) given X is B(n,p)
 
 ```{r}
 variance=bin_variance(trials=5,prob=0.3)
 variance
 ```
 
-Calculate mode of X given X~B(n,p)
+Calculate mode of X given X is B(n,p)
 
 ```{r}
 mode=bin_mode(trials=5,prob=0.3)
 mode
 ```
 
-Calculate skewness of X given X~B(n,p)
+Calculate skewness of X given X is B(n,p)
 
 ```{r}
 skewness=bin_skewness(trials=5,prob=0.3)
 skewness
 ```
 
-Calculate kurtosis of X given X~B(n,p)
+Calculate kurtosis of X given X is B(n,p)
 
 ```{r}
 kurtosis=bin_skewness(trials=5,prob=0.3)
