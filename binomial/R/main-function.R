@@ -86,7 +86,7 @@ bin_distribution=function(trials,prob)
 #' @export
 plot.bindis=function(x,...)
 {
-  barplot(x$probability,names.arg = x$success,xlab="successes",ylab="probability")
+  barplot(x$probability,names.arg = x$success,xlab="successes",ylab="probability",border = NA)
 }
 
 #' @title binomial cumulative distribution
@@ -136,7 +136,7 @@ bin_variable=function(trials,prob)
 #' @export
 print.binvar=function(x,...)
 {
-  string=paste0('"Binomial variable" \n \nParameters \n-number of trials: ',x[1],"\n-prob of success: ",x[2])
+  string=paste0('"Binomial variable" \n \nParameters \n- number of trials: ',x[1],"\n- prob of success : ",x[2])
   cat(string)
   invisible(x)
 }
@@ -150,7 +150,9 @@ summary.binvar=function(object,...)
   variance=aux_variance(trials,prob)
   mode=aux_mode(trials,prob)
   skewness=aux_skewness(trials,prob)
+  skewness=round(skewness,7)
   kurtosis=aux_kurtosis(trials,prob)
+  kurtosis=round(kurtosis,7)
   summary=c(trials,prob,mean,variance,mode,skewness,kurtosis)
   class(summary)="summary.binvar"
   return(summary)
@@ -159,7 +161,7 @@ summary.binvar=function(object,...)
 #' @export
 print.summary.binvar=function(x,...)
 {
-  string=paste0('"Summary Binomial" \n\nParameters \n-number of trials: ',x[1],"\n-prob of success: ",x[2],"\n\n","Measures","\n-mean    :",x[3],"\n-variance:",x[4],"\n-mode    :",x[5],"\n-skewness:",x[6],"\n-kurtosis:",x[7])
+  string=paste0('"Summary Binomial" \n\nParameters \n- number of trials: ',x[1],"\n- prob of success : ",x[2],"\n\n","Measures","\n- mean    : ",x[3],"\n- variance: ",x[4],"\n- mode    : ",x[5],"\n- skewness: ",x[6],"\n- kurtosis: ",x[7])
   cat(string)
   invisible(x)
 }
